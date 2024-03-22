@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciando</title>
+    <title>Juego de Memoria</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-
+    <div class="game-container"></div>
+    <div id="info">
+        <p>Puntaje: <span id="score">100</span></p>
+        <p>Tiempo: <span id="timer">3:00</span></p>
+        <button id="btn-reiniciar" onclick="restartGame()">Reiniciar</button>
+    </div>
+    <script src="index.js"></script>
 </body>
 
 </html>
